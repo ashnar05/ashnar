@@ -19,6 +19,9 @@ $(document).ready(function () {
   $(".videoFour").click(function () {
     $(".overlayFour").toggleClass("active");
   });
+  $(".videoFive").click(function () {
+    $(".overlayFive").toggleClass("active");
+  });
   $(".closeOverlayOne").click(function () {
     $(".overlayOne").toggleClass("active");
   });
@@ -30,6 +33,9 @@ $(document).ready(function () {
   });
   $(".closeOverlayFour").click(function () {
     $(".overlayFour").toggleClass("active");
+  });
+  $(".closeOverlayFive").click(function () {
+    $(".overlayFive").toggleClass("active");
   });
 });
 
