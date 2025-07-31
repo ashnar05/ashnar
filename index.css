@@ -756,7 +756,8 @@ video:hover {
 .overlayOne,
 .overlayTwo,
 .overlayThree,
-.overlayFour {
+.overlayFour,
+.overlayFive {
   margin: 0 auto;
   position: absolute;
   width: 90%;
@@ -784,7 +785,8 @@ video:hover {
 .overlayOne.active,
 .overlayTwo.active,
 .overlayThree.active,
-.overlayFour.active {
+.overlayFour.active,
+.overlayFive.active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -794,7 +796,8 @@ video:hover {
   .overlayOne,
   .overlayTwo,
   .overlayThree,
-  .overlayFour {
+  .overlayFour,
+  .overlayFive {
     height: 400px;
   }
 }
@@ -802,18 +805,26 @@ video:hover {
 .overlayOne .closeOverlayTwo,
 .overlayOne .closeOverlayThree,
 .overlayOne .closeOverlayFour,
+.overlayOne .closerOverlayFive,
 .overlayTwo .closeOverlayOne,
 .overlayTwo .closeOverlayTwo,
 .overlayTwo .closeOverlayThree,
 .overlayTwo .closeOverlayFour,
+.overlayTwo .closeOverlayFive,
 .overlayThree .closeOverlayOne,
 .overlayThree .closeOverlayTwo,
 .overlayThree .closeOverlayThree,
 .overlayThree .closeOverlayFour,
+.overlayThree .closeOverlayFive,
 .overlayFour .closeOverlayOne,
 .overlayFour .closeOverlayTwo,
 .overlayFour .closeOverlayThree,
-.overlayFour .closeOverlayFour {
+.overlayFour .closeOverlayFour,
+.overlayFour .closeOverlayFive,
+.overlayFive .closeOverlayOne,
+.overlayFive .closeOverlayTwo,
+.overlayFive .closeOverlayThree,
+.overlayFive .closeOverlayFour {
   color: white;
   position: absolute;
   right: 15px;
@@ -823,25 +834,35 @@ video:hover {
 .overlayOne .closeOverlayTwo:hover,
 .overlayOne .closeOverlayThree:hover,
 .overlayOne .closeOverlayFour:hover,
+.overlayOne .closeOverlayFive:hover,
 .overlayTwo .closeOverlayOne:hover,
 .overlayTwo .closeOverlayTwo:hover,
 .overlayTwo .closeOverlayThree:hover,
 .overlayTwo .closeOverlayFour:hover,
+.overlayTwo .closeOverlayFive:hover,
 .overlayThree .closeOverlayOne:hover,
 .overlayThree .closeOverlayTwo:hover,
 .overlayThree .closeOverlayThree:hover,
 .overlayThree .closeOverlayFour:hover,
+.overlayThree .closeOverlayFive:hover,
 .overlayFour .closeOverlayOne:hover,
 .overlayFour .closeOverlayTwo:hover,
 .overlayFour .closeOverlayThree:hover,
-.overlayFour .closeOverlayFour:hover {
+.overlayFour .closeOverlayFour:hover,
+.overlayFour .closeOverlayFive:hover,
+.overlayFive .closeOverlayOne:hover,
+.overlayFive .closeOverlayTwo:hover,
+.overlayFive .closeOverlayThree:hover,
+.overlayFive .closeOverlayFour:hover,
+.overlayFive .closeOverlayFive:hover {
   color: #e96269;
   cursor: pointer;
 }
 .overlayOne .toolsUsed,
 .overlayTwo .toolsUsed,
 .overlayThree .toolsUsed,
-.overlayFour .toolsUsed {
+.overlayFour .toolsUsed,
+.overlayFive .toolsUsed, {
   width: 80%;
   font-size: 1.5rem;
   margin: 20px auto 0 auto;
@@ -857,7 +878,8 @@ video:hover {
 .overlayOne .toolsUsed li,
 .overlayTwo .toolsUsed li,
 .overlayThree .toolsUsed li,
-.overlayFour .toolsUsed li {
+.overlayFour .toolsUsed li,
+.overlayFive .toolsUsed li {
   list-style: none;
   background-color: white;
   color: #808080;
@@ -869,7 +891,8 @@ video:hover {
 .overlayOne .viewProject,
 .overlayTwo .viewProject,
 .overlayThree .viewProject,
-.overlayFour .viewProject {
+.overlayFour .viewProject,
+.overlayFive .viewProject {
   font-size: 1.5rem;
   margin: 20px auto;
   padding: 10px 0;
@@ -880,7 +903,8 @@ video:hover {
 .overlayOne .viewProject a.button,
 .overlayTwo .viewProject a.button,
 .overlayThree .viewProject a.button,
-.overlayFour .viewProject a.button {
+.overlayFour .viewProject a.button,
+.overlayFive .viewProject a.button {
   background-color: #ff7171;
   padding: 10px 15px;
   margin: 10px;
@@ -894,7 +918,8 @@ video:hover {
 .overlayOne .viewProject a.button:hover,
 .overlayTwo .viewProject a.button:hover,
 .overlayThree .viewProject a.button:hover,
-.overlayFour .viewProject a.button:hover {
+.overlayFour .viewProject a.button:hover,
+.overlayFive .viewProject a.button:hover {
   background-color: #fff6f6;
   color: #ff7171;
 }
@@ -961,12 +986,27 @@ video:hover {
   .overlayFour {
     width: 648px;
   }
+  @media (min-width: 780px) {
+  .overlayFive {
+    width: 54%;
+  }
+}
+@media (min-width: 1080px) {
+  .overlayFive {
+    width: 48%;
+  }
+}
+@media (min-width: 1352px) {
+  .overlayFive {
+    width: 648px;
+  }
 }
 
 .portfolioOne,
 .portfolioTwo,
 .portfolioThree,
-.portfolioFour {
+.portfolioFour,
+.portfolioFive {
   width: 100%;
   height: 350px;
   margin-bottom: 10%;
@@ -977,7 +1017,8 @@ video:hover {
   .portfolioOne,
   .portfolioTwo,
   .portfolioThree,
-  .portfolioFour {
+  .portfolioFour,
+  .portfolioFive {
     height: 400px;
   }
 }
