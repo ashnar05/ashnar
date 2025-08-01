@@ -1107,7 +1107,7 @@ video:hover {
 }
 @media (min-width: 780px) {
   .firstRow .portfolioOne {
-    width: 60%;
+    width: 100%;
   }
 }
 .firstRow .portfolioOne video {
@@ -1195,7 +1195,7 @@ video:hover {
 }
 @media (min-width: 780px) {
   .secondRow .portfolioThree {
-    width: 37%;
+    width: 68%;
   }
 }
 .secondRow .portfolioThree video {
@@ -1280,7 +1280,7 @@ video:hover {
 }
 @media (min-width: 780px) {
   .thirdRow .portfolioFive {
-    width: 60%;
+    width: 37%;
   }
 }
 .thirdRow .portfolioFive video {
