@@ -926,17 +926,17 @@ video:hover {
 
 @media (min-width: 780px) {
   .overlayOne {
-    width: 54%;
+    width: 100%;
   }
 }
 @media (min-width: 1080px) {
   .overlayOne {
-    width: 48%;
+    width: 100%;
   }
 }
 @media (min-width: 1352px) {
   .overlayOne {
-    width: 648px;
+    width: 793.79px;
   }
 }
 
