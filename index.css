@@ -1157,7 +1157,7 @@ video:hover {
 }
 @media (min-width: 780px) {
   .secondRow .portfolioTwo {
-    width: 37%;
+    width: 68%;
   }
 }
 .secondRow .portfolioTwo video {
@@ -1195,7 +1195,7 @@ video:hover {
 }
 @media (min-width: 780px) {
   .secondRow .portfolioThree {
-    width: 68%;
+    width: 37%;
   }
 }
 .secondRow .portfolioThree video {
@@ -1244,7 +1244,7 @@ video:hover {
 }
 @media (min-width: 780px) {
   .thirdRow .portfolioFour {
-    width: 60%;
+    width: 37%;
   }
 }
 .thirdRow .portfolioFour video {
@@ -1280,7 +1280,7 @@ video:hover {
 }
 @media (min-width: 780px) {
   .thirdRow .portfolioFive {
-    width: 37%;
+    width: 68%;
   }
 }
 .thirdRow .portfolioFive video {
