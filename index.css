@@ -928,12 +928,12 @@ video:hover {
 
 @media (min-width: 780px) {
   .overlayOne {
-    width: 100%;
+    width: 97%;
   }
 }
 @media (min-width: 1080px) {
   .overlayOne {
-    width: 100%;
+    width: 97%;
   }
 }
 @media (min-width: 1352px) {
@@ -944,63 +944,63 @@ video:hover {
 
 @media (min-width: 780px) {
   .overlayTwo {
-    width: 33.5%;
+    width: 97%;
   }
 }
 @media (min-width: 1080px) {
   .overlayTwo {
-    width: 29.5%;
+    width: 97%;
   }
 }
 @media (min-width: 1352px) {
   .overlayTwo {
-    width: 399.59px;
+    width: 97%;
   }
 }
 
 @media (min-width: 780px) {
   .overlayThree {
-    width: 33.5%;
+    width: 97%;
   }
 }
 @media (min-width: 1080px) {
   .overlayThree {
-    width: 29.5%;
+    width: 97%;
   }
 }
 @media (min-width: 1352px) {
   .overlayThree {
-    width: 399.59px;
+    width: 97%;
   }
 }
 
 @media (min-width: 780px) {
   .overlayFour {
-    width: 54%;
+    width: 97%;
   }
 }
 @media (min-width: 1080px) {
   .overlayFour {
-    width: 48%;
+    width: 97%;
   }
 }
 @media (min-width: 1352px) {
   .overlayFour {
-    width: 648px;
+    width: 97%;
   }
-  @media (min-width: 780px) {
+ @media (min-width: 780px) {
   .overlayFive {
-    width: 54%;
+    width: 97%;
   }
 }
 @media (min-width: 1080px) {
   .overlayFive {
-    width: 48%;
+    width: 97%;
   }
 }
 @media (min-width: 1352px) {
   .overlayFive {
-    width: 648px;
+    width: 97%;
   }
 }
 
@@ -1087,26 +1087,53 @@ video:hover {
 }
 
 @media (min-width: 780px) {
-  .firstRow {
-    display: -webkit-box;
-    display: -ms-flexbox;
+  .firstRow,
+  .secondRow,
+  .thirdRow {
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
+    gap: 3%;
+  }
+
+  .firstRow .portfolioOne {
+    width: 100%;
+  }
+
+  .secondRow .portfolioTwo,
+  .thirdRow .portfolioFive {
+    width: 60%;
+  }
+
+  .secondRow .portfolioThree,
+  .thirdRow .portfolioFour {
+    width: 37%;
+  }
+
+  .firstRow video,
+  .secondRow video,
+  .thirdRow video {
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .firstRow video {
+    margin-top: -25px;
+  }
+
+  .secondRow video,
+  .thirdRow video {
+    margin-top: 0;
   }
 }
+
 .firstRow .portfolioOne {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
-          justify-content: flex-start;
 }
 @media (min-width: 780px) {
   .firstRow .portfolioOne {
@@ -1115,7 +1142,6 @@ video:hover {
 }
 .firstRow .portfolioOne video {
   height: 100%;
-  margin-left: -30px;
 }
 @media (min-width: 540px) {
   .firstRow .portfolioOne video {
@@ -1147,7 +1173,8 @@ video:hover {
             flex-direction: row;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between;
+            justify-content: flex-start;
+     gap: 3%;
   }
     
 .secondRow .portfolioTwo {
@@ -1156,7 +1183,6 @@ video:hover {
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: flex-end;
 }
 @media (min-width: 780px) {
   .secondRow .portfolioTwo {
@@ -1165,7 +1191,6 @@ video:hover {
 }
 .secondRow .portfolioTwo video {
   height: 100%;
-  margin-right: -30px;
 }
 @media (min-width: 540px) {
   .secondRow .portfolioTwo video {
@@ -1181,11 +1206,6 @@ video:hover {
     margin-right: -45px;
   }
 }
-@media (min-width: 540px) and (min-width: 1080px) {
-  .secondRow .portfolioTwo video {
-    margin-right: -30px;
-  }
-}
 
 }
 .secondRow .portfolioThree {
@@ -1194,7 +1214,6 @@ video:hover {
   display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
-          justify-content: flex-start;
 }
 @media (min-width: 780px) {
   .secondRow .portfolioThree {
@@ -1203,7 +1222,6 @@ video:hover {
 }
 .secondRow .portfolioThree video {
   height: 100%;
-  margin-left: -30px;
 }
 @media (min-width: 540px) {
   .secondRow .portfolioThree video {
@@ -1216,7 +1234,6 @@ video:hover {
   .secondRow .portfolioThree video {
     height: 100%;
     margin-top: 0;
-    margin-left: -30px;
   }
 }
 @media (min-width: 1080px) {
@@ -1235,7 +1252,8 @@ video:hover {
             flex-direction: row;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between;
+            justify-content: flex-start;
+    gap: 3%;
   }
 .thirdRow .portfolioFour {
   display: -webkit-box;
@@ -1243,7 +1261,6 @@ video:hover {
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: flex-end;
 }
 @media (min-width: 780px) {
   .thirdRow .portfolioFour {
@@ -1252,7 +1269,6 @@ video:hover {
 }
 .thirdRow .portfolioFour video {
   height: 100%;
-  margin-right: -30px;
 }
 @media (min-width: 540px) {
   .thirdRow .portfolioFour video {
@@ -1279,7 +1295,6 @@ video:hover {
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: flex-end;
 }
 @media (min-width: 780px) {
   .thirdRow .portfolioFive {
@@ -1288,7 +1303,6 @@ video:hover {
 }
 .thirdRow .portfolioFive video {
   height: 100%;
-  margin-right: -30px;
 }
 @media (min-width: 540px) {
   .thirdRow .portfolioFive video {
