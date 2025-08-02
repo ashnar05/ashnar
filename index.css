@@ -780,7 +780,9 @@ video:hover {
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.8);
   opacity: 0;
-  display: none;
+  pointer-events: none;
+  top: 0;
+  left: 0;
 }
 .overlayOne.active,
 .overlayTwo.active,
@@ -789,7 +791,7 @@ video:hover {
 .overlayFive.active {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  pointer-events: auto;
   opacity: 1;
 }
 @media (min-width: 540px) {
@@ -1012,6 +1014,7 @@ video:hover {
   margin-bottom: 10%;
   border-radius: 10px;
   overflow: hidden;
+  position: relative;
 }
 @media (min-width: 540px) {
   .portfolioOne,
