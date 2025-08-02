@@ -760,7 +760,7 @@ video:hover {
 .overlayFive {
   margin: 0 auto;
   position: absolute;
-  width: 90%;
+  width: 100%;
   height: 350px;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -928,79 +928,80 @@ video:hover {
 
 @media (min-width: 780px) {
   .overlayOne {
-    width: 97%;
+    width: 100%;
   }
 }
 @media (min-width: 1080px) {
   .overlayOne {
-    width: 97%;
+    width: 100%;
   }
 }
 @media (min-width: 1352px) {
   .overlayOne {
-    width: 97%;
+    width: 100%;
   }
 }
 
 @media (min-width: 780px) {
   .overlayTwo {
-    width: 97%;
+    width: 100%;
   }
 }
 @media (min-width: 1080px) {
   .overlayTwo {
-    width: 97%;
+    width: 100%;
   }
 }
 @media (min-width: 1352px) {
   .overlayTwo {
-    width: 97%;
+    width: 100%;
   }
 }
 
 @media (min-width: 780px) {
   .overlayThree {
-    width: 97%;
+    width: 100%;
   }
 }
 @media (min-width: 1080px) {
   .overlayThree {
-    width: 97%;
+    width: 100%;
   }
 }
 @media (min-width: 1352px) {
   .overlayThree {
-    width: 97%;
+    width: 100%;
   }
 }
 
 @media (min-width: 780px) {
   .overlayFour {
-    width: 97%;
+    width: 100%;
   }
 }
 @media (min-width: 1080px) {
   .overlayFour {
-    width: 97%;
+    width: 100%;
   }
 }
 @media (min-width: 1352px) {
   .overlayFour {
-    width: 97%;
+    width: 100%;
   }
+  
  @media (min-width: 780px) {
   .overlayFive {
-    width: 97%;
+    width: 100%;
   }
 }
 @media (min-width: 1080px) {
   .overlayFive {
-    width: 97%;
+    width: 100%;
   }
 }
 @media (min-width: 1352px) {
   .overlayFive {
-    width: 97%;
+    width: 100%;
   }
 }
 
@@ -1149,10 +1150,12 @@ video:hover {
 
 @media (min-width: 780px) {
   .firstRow .portfolioOne {
-    width: 97%;
+    width: 100%;
   }
 }
-.firstRow .portfolioOne video {
+
+/* 
+  .firstRow .portfolioOne video {
   height: 100%;
 }
 @media (min-width: 540px) {
@@ -1174,6 +1177,8 @@ video:hover {
     margin-top: -25px;
   }
 }
+  */
+  
   @media (min-width: 780px) {
   .secondRow {
     display: -webkit-box;
@@ -1201,6 +1206,7 @@ video:hover {
     width: 60%;
   }
 }
+    /*
 .secondRow .portfolioTwo video {
   height: 100%;
 }
@@ -1220,6 +1226,7 @@ video:hover {
 }
 
 }
+  */
 .secondRow .portfolioThree {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1232,6 +1239,7 @@ video:hover {
     width: 37%;
   }
 }
+    /*
 .secondRow .portfolioThree video {
   height: 100%;
 }
@@ -1253,6 +1261,7 @@ video:hover {
     margin-left: -25px;
   }
 }
+    */
   @media (min-width: 780px) {
   .thirdRow {
     display: -webkit-box;
@@ -1279,6 +1288,7 @@ video:hover {
     width: 37%;
   }
 }
+    /*
 .thirdRow .portfolioFour video {
   height: 100%;
 }
@@ -1301,6 +1311,7 @@ video:hover {
     margin-top: -25px;
   }
 }
+    */
     .thirdRow .portfolioFive {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1313,6 +1324,7 @@ video:hover {
     width: 60%;
   }
 }
+    /*
 .thirdRow .portfolioFive video {
   height: 100%;
 }
@@ -1335,6 +1347,7 @@ video:hover {
     margin-top: -25px;
   }
 }
+    */
 
 @media (min-width: 540px) {
   .portfolioOne:hover .overlayOne,
