@@ -406,7 +406,7 @@ nav .menu li a:hover, nav .menu li a:focus, nav .menu li a:active {
 
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
-    url("/docs/headerbckg.jpg");
+    url("docs/headerbckg.jpg");
   height: 100vh !important;
   display: -webkit-box;
   display: -ms-flexbox;
