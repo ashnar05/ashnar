@@ -864,7 +864,7 @@ video:hover {
 .overlayTwo .toolsUsed,
 .overlayThree .toolsUsed,
 .overlayFour .toolsUsed,
-.overlayFive .toolsUsed, {
+.overlayFive .toolsUsed {
   width: 80%;
   font-size: 1.5rem;
   margin: 20px auto 0 auto;
