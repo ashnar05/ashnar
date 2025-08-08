@@ -214,6 +214,7 @@ html {
 
 body {
   height: 100%;
+  width: 100%
   font-family: karla, sans-serif;
   position: relative;
 }
@@ -223,13 +224,15 @@ p {
 }
 
 .wrapper {
-  width: 90%;
+  width: 100%;
   max-width: 1080px;
   margin: 0 auto;
 }
 @media (min-width: 1080px) {
   .wrapper {
-    width: 80%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+    url("docs/wallpaper1.jpg");
   }
 }
 
@@ -406,7 +409,7 @@ nav .menu li a:hover, nav .menu li a:focus, nav .menu li a:active {
 
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
-    url("docs/wallpaper1.jpg");
+    url("docs/headerbckg.jpg");
   background-size: cover;         
   background-position: center;    
   background-repeat: no-repeat;
@@ -436,7 +439,7 @@ header {
   }
 }
 header .imageContainer {
-  width: 80%;
+  width: 100%;
   max-width: 230px;
 }
 header .imageContainer img {
@@ -444,10 +447,6 @@ header .imageContainer img {
 }
 header .headerText {
   z-index: 1;
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
 }
 header .headerText h1 {
   font-size: 3rem;
