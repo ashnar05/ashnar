@@ -231,8 +231,8 @@ p {
 @media (min-width: 1080px) {
   .wrapper {
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
-    url("docs/wallpaper1.jpg");
+    /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+    url("docs/wallpaper1.jpg"); */
   }
 }
 
