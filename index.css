@@ -217,8 +217,7 @@ body {
   width: 100%
   font-family: karla, sans-serif;
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
-    url("docs/wallpaper1.1.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("docs/wallpaper1.1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -413,6 +412,7 @@ nav .menu li a:hover, nav .menu li a:focus, nav .menu li a:active {
 }
 
 header {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("docs/headerbckg.png"); 
   background-size: cover;         
   background-position: center;    
   background-repeat: no-repeat;
