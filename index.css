@@ -465,7 +465,10 @@ header .headerText h1 {
   header .headerText h1 {
     font-size: 4rem;
     max-width: 400px;
-    font-family: 'Syne', sans-serif;
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 725;
+    font-style: normal;
   }
 }
 header .headerText h1 span {
@@ -545,11 +548,15 @@ header .fa-angle-down {
   }
 }
 header p {
-  color: #696969;
+  color: #f1f4fc;
   font-size: 2rem;
   font-weight: 400;
   width: 100%;
   position: relative;
+  font-family: "Red Hat Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
 }
 @media (min-width: 780px) {
   header p {
@@ -557,11 +564,7 @@ header p {
   }
 }
 header p span {
-  color: #e96269;
-}
-header p .smallerText {
-  font-family: "Nanum Pen Script", "cursive";
-  color: #b3b3b3;
+  color: #050545;
 }
 
 .aboutMe {
