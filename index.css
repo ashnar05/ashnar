@@ -674,7 +674,7 @@ header p .smallerText {
 }
 @media (min-width: 780px) {
   .skills {
-    width: 90%;
+    width: 100%;
     margin-bottom: 100px;
   }
 }
