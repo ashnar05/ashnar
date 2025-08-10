@@ -766,11 +766,11 @@ main {
   width: 80%;
   left: 0;
   right: 0px;
-  font-family: "Red Hat Text", sans-serif;
+  font-family: "Syne", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
-  font-size: 21px;
+  font-size: 3rem;
   color: #f1f4fc;
 }
 
