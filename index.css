@@ -1430,9 +1430,11 @@ video:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  max-width: 80%;
 }
 .contact .contactContainer .contactInformation {
   width: 100%;
+  padding-left: 15%;
 }
 .contact .contactContainer .contactInformation p {
   padding-top: 20px;
