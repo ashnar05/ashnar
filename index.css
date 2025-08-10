@@ -479,7 +479,7 @@ header .imageContainer img {
 }
 header .headerText {
   z-index: 1;
-  max-width: 70%;
+  max-width: 80%;
 }
 header .headerText h1 {
   font-size: 3rem;
@@ -613,7 +613,7 @@ header p span {
 .aboutMe h2 {
   font-size: 3rem;
   font-family: "Syne", sans-serif;
-  color: #e96269;
+  color: #f1f4fc;
   position: relative;
   margin: 0;
 }
@@ -1135,7 +1135,7 @@ video:hover {
     display: flex;
     justify-content: space-between;
     gap: 3%;
-    max-width: 70%;
+    max-width: 80%;
   }
 
   .firstRow .portfolioOne {
@@ -1427,7 +1427,7 @@ video:hover {
 .contact h2::before {
   content: "";
   position: absolute;
-  background-color: #ffe3e3;
+  background-color: #1c3570;
   -webkit-box-shadow: 0 0 8px #ffd9d9;
           box-shadow: 0 0 8px #ffd9d9;
   height: 18px;
@@ -1462,7 +1462,7 @@ video:hover {
 }
 .contact .contactContainer .contactInformation {
   width: 100%;
-  padding-left: 15%;
+  padding-left: 10%;
 }
 .contact .contactContainer .contactInformation p {
   padding-top: 20px;
@@ -1488,7 +1488,7 @@ video:hover {
 }
 @media (min-width: 780px) {
   .contact .contactContainer .contactInformation {
-    width: 30%;
+    width: 40%;
     margin-right: 10%;
   }
 }
