@@ -326,15 +326,15 @@ nav .menu li a {
   -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
   background: linear-gradient(to right, #00be9e, #00bebe);
-  background-size: 0% 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  transition: background-size 0.5s ease;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: #f1f4fc;
+  transition: webkit-text-fill-color 0.4s ease;
 }
 
 nav .menu li a:hover, nav .menu li a:focus, nav .menu li a:active {
-  background-size: 100% 100%;
+  webkit-text-fill-color: transparent;
 }
 /*
 nav .menu li a:hover, nav .menu li a:focus, nav .menu li a:active {
