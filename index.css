@@ -325,7 +325,7 @@ nav .menu li a {
   text-decoration: none;
   -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
-  background: linear-gradient(to right, #1726bd, #7c90ac);
+  background: linear-gradient(to right, #0f3379, #7c90ac);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   -webkit-background-clip: text;
