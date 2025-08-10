@@ -301,6 +301,7 @@ nav .menu li {
       -ms-flex-pack: center;
           justify-content: center;
 }
+/*
 nav .menu li a {
   color: #f1f4fc;
   margin: auto;
@@ -312,9 +313,18 @@ nav .menu li a {
   text-decoration: none;
   -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
-}
+} */
 nav .menu li a {
   display: inline-block;
+  margin: auto;
+  width: auto;
+  color: #f1f4fc;
+  font-size: 2.9rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
   background: linear-gradient(to right, #00be9e, #00bebe);
   background-size: 0% 100%;
   background-repeat: no-repeat;
