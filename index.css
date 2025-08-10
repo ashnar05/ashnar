@@ -465,6 +465,7 @@ header .headerText h1 {
   header .headerText h1 {
     font-size: 4rem;
     max-width: 400px;
+    font-family: 'Syne', sans-serif;
   }
 }
 header .headerText h1 span {
