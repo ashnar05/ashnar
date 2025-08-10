@@ -334,7 +334,7 @@ nav .menu li a {
 }
 
 nav .menu li a:hover, nav .menu li a:focus, nav .menu li a:active {
-  webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 /*
 nav .menu li a:hover, nav .menu li a:focus, nav .menu li a:active {
