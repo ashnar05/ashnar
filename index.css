@@ -612,6 +612,7 @@ header p span {
 }
 .aboutMe h2 {
   font-size: 3rem;
+  font-family: "Syne", sans-serif;
   color: #e96269;
   position: relative;
   margin: 0;
@@ -771,9 +772,9 @@ main {
 .notesText {
   position: absolute;
   text-align: left;
-  margin: -50px auto;
+  margin: -70px auto;
   max-width: 1080px;
-  width: 80%;
+  width: 70%;
   left: 0;
   right: 0px;
   font-family: "Syne", sans-serif;
@@ -1403,7 +1404,7 @@ video:hover {
   }
 }
 .contact {
-  background-color: #fff7f7;
+  background-color: #1c3570;
   padding: 50px 0;
   font-size: 1.6rem;
   height: auto;
@@ -1416,6 +1417,7 @@ video:hover {
 }
 .contact h2 {
   color: #e96269;
+  font-family: "Syne", sans-serif;
   font-size: 3rem;
   padding: 0;
   margin: 0;
@@ -1464,6 +1466,7 @@ video:hover {
 }
 .contact .contactContainer .contactInformation p {
   padding-top: 20px;
+  font-family: "Red Hat Text", sans-serif;
 }
 .contact .contactContainer .contactInformation .socialIcons {
   display: -webkit-box;
