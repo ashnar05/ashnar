@@ -555,7 +555,7 @@ header p {
   position: relative;
   font-family: "Red Hat Text", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 350;
+  font-weight: 400;
   font-style: normal;
 }
 @media (min-width: 780px) {
