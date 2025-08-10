@@ -412,8 +412,8 @@ nav .menu li a:hover, nav .menu li a:focus, nav .menu li a:active {
 }
 
 header {
-  background: url("docs/TEM2.png"); 
-  background-size: cover;         
+  background: linear-gradient(to bottom, #000000 0.1%, transparent 100%), url("docs/TEM2.png"); 
+  /*background-size: cover;*/     
   background-position: center;    
   background-repeat: no-repeat;
   height: 100vh !important;
