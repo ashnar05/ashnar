@@ -747,19 +747,12 @@ main {
   width: 80%;
   left: 0;
   right: 0px;
-  font-family: "Nanum Pen Script", "cursive";
+  font-family: "Red Hat Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   font-size: 21px;
-  color: #e96269;
-}
-
-.smallerText {
-  font-family: "Nanum Pen Script", "cursive";
-  color: #b3b3b3;
-}
-
-.smallerTextContact {
-  font-family: "Nanum Pen Script", "cursive";
-  color: #696969;
+  color: #f1f4fc;
 }
 
 .portfolioProjects {
