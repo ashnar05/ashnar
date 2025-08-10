@@ -330,12 +330,11 @@ nav .menu li a {
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: #f1f4fc;
-  transition: webkit-text-fill-color 0.4s ease;
+  transition: -webkit-text-fill-color 0.4s ease;
 }
 
 nav .menu li a:hover, nav .menu li a:focus, nav .menu li a:active {
   -webkit-text-fill-color: transparent;
-  cursor: pointer;
 }
 /*
 nav .menu li a:hover, nav .menu li a:focus, nav .menu li a:active {
