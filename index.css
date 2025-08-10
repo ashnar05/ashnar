@@ -311,7 +311,7 @@ nav .menu li a {
   transition: background 0.2s ease-in-out;
 }
 nav .menu li a:hover, nav .menu li a:focus, nav .menu li a:active {
-  color: rgb(202, 50, 62);
+  color: rgb(11, 21, 44);
 }
 
 .menu-toggle {
@@ -330,7 +330,7 @@ nav .menu li a:hover, nav .menu li a:focus, nav .menu li a:active {
   display: block;
   overflow: hidden;
   text-indent: 100%;
-  background: #e96269;
+  background: #1c3570;
   border-radius: 2px;
   white-space: nowrap;
   -webkit-transition: background 0.3s ease-in-out;
@@ -341,7 +341,7 @@ nav .menu li a:hover, nav .menu li a:focus, nav .menu li a:active {
   content: "";
   width: 22px;
   height: 4px;
-  background: #e96269;
+  background: #1c3570;
   border-radius: 2px;
   position: absolute;
   -webkit-transform-origin: center center;
@@ -456,7 +456,7 @@ header .headerText h1 {
   font-size: 3rem;
   font-weight: 700;
   margin: 10px 0;
-  color: #e96269;
+  color: #f1f4fc;
   position: relative;
   max-width: 200px;
   width: 80%;
@@ -475,6 +475,7 @@ header .headerText h1 span {
     display: inline;
   }
 }
+/*
 header .headerText h1::after {
   content: "";
   position: absolute;
@@ -492,13 +493,14 @@ header .headerText h1::after {
     height: 23px;
   }
 }
+*/
 header .scrollDownText {
   position: absolute;
   text-align: center;
   padding-top: 90vh;
   font-family: "Nanum Pen Script", "cursive";
   font-size: 23px;
-  color: #e96269;
+  color: #f1f4fc;
   z-index: -11;
 }
 header .fa-angle-down {
@@ -564,7 +566,7 @@ header p .smallerText {
 .aboutMe {
   min-height: 500px;
   height: 80%;
-  padding: 30px auto;
+  margin: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -574,7 +576,6 @@ header p .smallerText {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  max-width: 70%;
 }
 .aboutMe h2 {
   font-size: 3rem;
