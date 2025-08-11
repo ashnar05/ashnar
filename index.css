@@ -532,7 +532,7 @@ header .scrollDownText {
   position: absolute;
   text-align: center;
   padding-top: 90vh;
-  font-family: "Nanum Pen Script", "cursive";
+  font-family: "Red Hat Text", sans-serif;
   font-size: 23px;
   color: #f1f4fc;
   z-index: -11;
