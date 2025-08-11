@@ -661,6 +661,7 @@ header p span {
 .aboutMe .aboutMeTop .aboutMeBio p {
   font-size: 1.8rem;
   color: #f1f4fc;
+  font-family: "Red Hat Text", sans-serif;
 }
 .aboutMe .aboutMeTop .aboutMeImage {
   display: -webkit-box;
