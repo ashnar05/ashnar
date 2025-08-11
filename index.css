@@ -1467,6 +1467,7 @@ video:hover {
 .contact .contactContainer .contactInformation p {
   padding-top: 20px;
   font-family: "Red Hat Text", sans-serif;
+  color: #f1f4fc;
 }
 .contact .contactContainer .contactInformation .socialIcons {
   display: -webkit-box;
