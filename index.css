@@ -618,7 +618,7 @@ header p span {
   position: relative;
   margin: 0;
 }
-.aboutMe h2::after {
+/*.aboutMe h2::after {
   content: "";
   position: absolute;
   background-color: #ffe9e9;
@@ -630,6 +630,7 @@ header p span {
   width: 180px;
   z-index: -1;
 }
+*/
 .aboutMe .aboutMeTop {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1426,10 +1427,11 @@ video:hover {
   position: relative;
   z-index: 2;
 }
+/*
 .contact h2::before {
   content: "";
   position: absolute;
-  /*background-color: #1c3570;*/
+  background-color: #1c3570;
   -webkit-box-shadow: 0 0 8px #ffd9d9;
           box-shadow: 0 0 8px #ffd9d9;
   height: 18px;
@@ -1437,7 +1439,7 @@ video:hover {
   bottom: 0;
   width: 240px;
   z-index: -1;
-}
+}*/
 .contact .contactContainer {
   padding-bottom: 20px;
 }
