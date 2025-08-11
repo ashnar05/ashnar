@@ -1507,7 +1507,7 @@ video:hover {
 .contact .contactContainer .contactForm textarea {
   padding: 10px;
   margin: 10px 0;
-  border: 2px solid #ffd5d5;
+  border: 2px solid #65809d;
   border-radius: 5px;
   resize: none;
 }
@@ -1528,7 +1528,7 @@ video:hover {
 .contact .contactContainer .contactForm button:hover {
   background-color: #f1f4fc;
   color: #1c3570;
-  border: 2px solid #0b152c;
+  border: 2px solid #65809d;
 }
 
 footer {
