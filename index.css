@@ -1405,6 +1405,7 @@ video:hover {
 }
 .contact {
   /*background-color: #1c3570;*/
+  background: linear-gradient(to top, #050a17 0.1%, transparent 100%);
   padding: 50px 0;
   font-size: 1.6rem;
   height: auto;
