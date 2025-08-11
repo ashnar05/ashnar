@@ -325,7 +325,7 @@ nav .menu li a {
   text-decoration: none;
   -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
-  background: linear-gradient(to right, #0f3379, #7c90ac);
+  background: linear-gradient(to right, #27559d, #7c90ac);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   -webkit-background-clip: text;
@@ -658,7 +658,7 @@ header p span {
 }
 .aboutMe .aboutMeTop .aboutMeBio p {
   font-size: 1.8rem;
-  color: #696969;
+  color: #f1f4fc;
 }
 .aboutMe .aboutMeTop .aboutMeImage {
   display: -webkit-box;
@@ -694,7 +694,7 @@ header p span {
 }
 
 .skills {
-  font-family: "Nanum Pen Script", "cursive";
+  font-family: 'Red Hat Text', sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -714,6 +714,7 @@ header p span {
 }
 .skills li {
   list-style: none;
+  color: #f1f4fc;
   width: 80px;
   text-align: center;
   padding: 20px 0;
@@ -1426,7 +1427,7 @@ video:hover {
 .contact h2::before {
   content: "";
   position: absolute;
-  background-color: #1c3570;
+  /*background-color: #1c3570;*/
   -webkit-box-shadow: 0 0 8px #ffd9d9;
           box-shadow: 0 0 8px #ffd9d9;
   height: 18px;
@@ -1512,8 +1513,8 @@ video:hover {
   height: 200px;
 }
 .contact .contactContainer .contactForm button {
-  background-color: #ff7171;
-  border: 2px solid #ff7171;
+  background-color: #1c3570;
+  border: 2px solid #050545;
   padding: 10px 15px;
   margin: 10px 0;
   width: auto;
@@ -1523,20 +1524,20 @@ video:hover {
   text-transform: uppercase;
 }
 .contact .contactContainer .contactForm button:hover {
-  background-color: white;
-  color: #ff7171;
-  border: 2px solid #ffd5d5;
+  background-color: #f1f4fc;
+  color: #1c3570;
+  border: 2px solid #0b152c;
 }
 
 footer {
   width: 100%;
   position: relative;
-  background-color: #ff9090;
+  background-color: #1c3570;
   margin: 0 auto;
   bottom: 0px;
   padding: 15px;
   text-align: center;
-  color: white;
+  color: #f1f4fc;
   font-size: 1.6rem;
 }
 footer p {
