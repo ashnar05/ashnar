@@ -599,7 +599,7 @@ header p span {
 .aboutMe {
   min-height: 500px;
   height: 80%;
-  margin: 15%;
+  margin: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -773,8 +773,7 @@ main {
   position: absolute;
   text-align: left;
   margin: -70px auto;
-  max-width: 1080px;
-  width: 70%;
+  max-width: 80%;
   left: 0;
   right: 0px;
   font-family: "Syne", sans-serif;
@@ -1416,7 +1415,7 @@ video:hover {
   }
 }
 .contact h2 {
-  color: #e96269;
+  color: #f1f4fc;
   font-family: "Syne", sans-serif;
   font-size: 3rem;
   padding: 0;
