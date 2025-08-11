@@ -1487,10 +1487,10 @@ video:hover {
   font-size: 2.4rem;
 }
 .contact .contactContainer .contactInformation .socialIcons li a {
-  color: #ff7171;
+  color: #65809d;
 }
 .contact .contactContainer .contactInformation .socialIcons li a:hover {
-  color: #bb3131;
+  color: #3e7fc4;
 }
 @media (min-width: 780px) {
   .contact .contactContainer .contactInformation {
