@@ -793,10 +793,11 @@ main {
   margin: 0 0 100px 0;
   overflow: hidden;
 }
-
+/*
 video:hover {
   cursor: pointer;
 }
+*/
 
 .overlayOne,
 .overlayTwo,
@@ -903,7 +904,7 @@ video:hover {
 .overlayFive .closeOverlayFour:hover,
 .overlayFive .closeOverlayFive:hover {
   color: #e96269;
-  cursor: pointer;
+  /*cursor: pointer;*/
 }
 .overlayOne .toolsUsed,
 .overlayTwo .toolsUsed,
@@ -1253,7 +1254,7 @@ video:hover {
     width: 60%;
   }
 }
-    /*
+    
 .secondRow .portfolioTwo video {
   height: 100%;
 }
@@ -1273,7 +1274,7 @@ video:hover {
 }
 
 }
-  */
+  
 .secondRow .portfolioThree {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1286,7 +1287,7 @@ video:hover {
     width: 37%;
   }
 }
-    /*
+    
 .secondRow .portfolioThree video {
   height: 100%;
 }
@@ -1308,7 +1309,7 @@ video:hover {
     margin-left: -25px;
   }
 }
-    */
+    
   @media (min-width: 780px) {
   .thirdRow {
     display: -webkit-box;
@@ -1335,7 +1336,7 @@ video:hover {
     width: 37%;
   }
 }
-    /*
+    
 .thirdRow .portfolioFour video {
   height: 100%;
 }
@@ -1358,7 +1359,7 @@ video:hover {
     margin-top: -25px;
   }
 }
-    */
+    
     .thirdRow .portfolioFive {
   display: -webkit-box;
   display: -ms-flexbox;
