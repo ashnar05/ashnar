@@ -510,6 +510,9 @@ header .headerText h1 span {
     display: inline;
   }
 }
+
+.subheaderText h1 {
+}
 /*
 header .headerText h1::after {
   content: "";
