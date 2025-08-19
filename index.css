@@ -512,6 +512,7 @@ header .headerText h1 span {
 }
 
 header .subheaderText {
+  font-family: "Syne", sans-serif;
   z-index: 1;
   max-width: 80%;
   margin: 0 auto;
