@@ -511,8 +511,23 @@ header .headerText h1 span {
   }
 }
 
-.subheaderText h1 {
+header .subheaderText {
+  z-index: 1;
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
 }
+
+header .subheaderText h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 10px auto; 
+  color: #f1f4fc;
+  position: relative;
+  max-width: none;
+  width: auto;
+
+  
 /*
 header .headerText h1::after {
   content: "";
