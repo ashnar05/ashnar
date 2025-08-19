@@ -514,6 +514,7 @@ header .headerText h1 span {
 header .subheaderText {
   z-index: 1;
   max-width: 80%;
+  text-align: left;
 }
 header .subheaderText h1 {
   font-size: 3rem;
@@ -521,8 +522,8 @@ header .subheaderText h1 {
   margin: 10px 0;
   color: #f1f4fc;
   position: relative;
-  max-width: 200px;
-  width: 80%;
+  max-width: none;
+  width: 100%;
 }
 @media (min-width: 780px) {
   header .subheaderText h1 {
@@ -541,6 +542,11 @@ header .subheaderText h1 span {
   header .subheaderText h1 span {
     display: inline;
   }
+}
+
+header .subheaderText p {
+  text-align: left;
+  max-width: 600px;
 }
   
 /*
