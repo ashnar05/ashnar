@@ -969,6 +969,7 @@ video:hover {
 .overlayFive .viewProject a.button:hover {
   background-color: #fff6f6;
   color: #ff7171;
+  cursor: pointer;
 }
 
 @media (min-width: 780px) {
