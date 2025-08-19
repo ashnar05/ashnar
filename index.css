@@ -512,21 +512,35 @@ header .headerText h1 span {
 }
 
 header .subheaderText {
-  font-family: "Syne", sans-serif;
   z-index: 1;
   max-width: 80%;
-  margin: 0 auto;
-  text-align: center;
 }
-
 header .subheaderText h1 {
   font-size: 3rem;
   font-weight: 700;
-  margin: 10px auto; 
+  margin: 10px 0;
   color: #f1f4fc;
   position: relative;
-  max-width: none;
-  width: auto;
+  max-width: 200px;
+  width: 80%;
+}
+@media (min-width: 780px) {
+  header .subheaderText h1 {
+    font-size: 4rem;
+    max-width: 400px;
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 725;
+    font-style: normal;
+  }
+}
+header .subheaderText h1 span {
+  display: block;
+}
+@media (min-width: 780px) {
+  header .subheaderText h1 span {
+    display: inline;
+  }
 }
   
 /*
