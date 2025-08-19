@@ -952,14 +952,14 @@ video:hover {
 .overlayThree .viewProject a.button,
 .overlayFour .viewProject a.button,
 .overlayFive .viewProject a.button {
-  background-color: #ff7171;
+  background-color: #1c3570;
   padding: 10px 15px;
   margin: 10px;
   width: auto;
   border-radius: 5px;
   border: none;
   text-decoration: none;
-  color: white;
+  color: #f1f4fc;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -968,8 +968,8 @@ video:hover {
 .overlayThree .viewProject a.button:hover,
 .overlayFour .viewProject a.button:hover,
 .overlayFive .viewProject a.button:hover {
-  background-color: #fff6f6;
-  color: #ff7171;
+  background-color: #f1f4fc;
+  color: #1c3570;
 }
 
 @media (min-width: 780px) {
