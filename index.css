@@ -1543,6 +1543,14 @@ video:hover {
   padding: 15px;
 }
 
+.GWAS_workflow img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  object-fit: contain;
+}
+    
 footer {
   width: 100%;
   position: relative;
