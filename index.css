@@ -1536,9 +1536,9 @@ video:hover {
   border: 2px solid #65809d;
 }
 
-GWAS_workflow {
+.GWAS_workflow {
   width: 100%;
-  position: fixed;
+  position: relative;
   margin: 0 auto;
   padding: 15px;
 }
