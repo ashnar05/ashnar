@@ -826,7 +826,6 @@ video:hover {
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.8);
   opacity: 0;
-  pointer-events: none;
   top: 0;
   left: 0;
 }
