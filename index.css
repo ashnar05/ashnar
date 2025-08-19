@@ -1547,6 +1547,7 @@ video:hover {
   width: 70%;
   height: auto;
   display: block;
+  margin: 0 auto;
   max-width: 100%;
   object-fit: contain;
 }
