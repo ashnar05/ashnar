@@ -513,7 +513,7 @@ header .headerText h1 span {
 
 header .subheaderText {
   z-index: 1;
-  max-width: 80%;
+  width: 80%;
   text-align: left;
 }
 header .subheaderText h1 {
