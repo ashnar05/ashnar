@@ -1,1 +1,67 @@
+<!--
+This website was coded based on Sharon Yi's portfolio at https://sharon-yi.com/.
+-->
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./docs/girl.png">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://kit.fontawesome.com/2a20f3910e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="stylesheet" href="index.css" />
+  <title>Wilms' Tumor ABM</title>
+</head>
+
+<body>
+  <div class="headerBg wrapper">
+    <nav role="navigation">
+      <div class="menu-toggle"><span>Menu</span></div>
+      <ul class="menu">
+        <li>
+          <a href="https://ashnar05.github.io/ashnar/#projects" class="link"><span>Projects</span></a>
+        </li>
+        <li>
+          <a href="https://ashnar05.github.io/ashnar/#aboutMe" class="link"><span>About Me</span></a>
+        </li>
+        <li>
+          <a href="https://ashnar05.github.io/ashnar/#contact" class="link"><span>Contact</span></a>
+        </li>
+      </ul>
+    </nav>
+    <header data-aos="fade-up" data-aos-once="true">
+      <div class="subheaderText">
+        <h1>ABM Model of Wilms' Tumor in PhysiCell</h1>
+        <p>
+          An investigation into chemotherapy efficacy on heterogeneous Wilms' tumor subtypes.
+        </p>
+      </div>
+      <p class="scrollDownText">
+        <i class="fas fa-angle-down" aria-hidden="true"></i>
+      </p>
+    </header>
+  </div>
+  <main>
+    <div class="GWAS_workflow">
+    <img src="docs/GWAS_Project.svg" alt="">
+    </div>
+  </main>
+
+  <footer>
+    <p></p>
+  </footer>
+  <script src="index.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
