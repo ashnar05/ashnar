@@ -1469,7 +1469,7 @@ video:hover {
   font-family: "Red Hat Text", sans-serif;
   color: #f1f4fc;
   position: relative;
-  margin: 0;
+  margin-bottom: 100px;
     }
     
 .contact {
