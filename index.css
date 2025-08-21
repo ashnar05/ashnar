@@ -1444,7 +1444,7 @@ video:hover {
 }
 
 .infobox{
-  width: 30%;
+  width: 100%;
   display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1453,7 +1453,6 @@ video:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 100px;
     }
     
 .infobox h2 {
