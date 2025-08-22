@@ -1471,6 +1471,27 @@ video:hover {
   margin-bottom: 100px;
     }
     
+.description {
+  width: 100%;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 100px;
+    }
+    
+.description p {
+  font-size: 2rem;
+  font-family: "Red Hat Text", sans-serif;
+  color: #f1f4fc;
+  position: relative;
+  margin: 0;
+    }
+    
 .contact {
   /*background-color: #1c3570;*/
   background: linear-gradient(to top, #050a17 0.1%, transparent 100%);
