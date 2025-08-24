@@ -72,11 +72,18 @@ This website was coded based on Sharon Yi's portfolio at https://sharon-yi.com/.
     </div>
     <div class="thirdRow wrapper">
           <div class="description">
-            <p>Investigating the genetic factors underlying poor tuberculosis (TB) prognosis and mortality may inform host-directed therapies targeting the
+            <p>Understanding the genetic factors underlying poor tuberculosis (TB) prognosis and mortality may inform host-directed therapies targeting the
             pulmonary microenvironment, ultimately reducing the risk of post-TB complications in disproportionately affected populations. Post-TB lung disease remains
             undiagnosed, particularly in communities with limited access to healthcare. As such, our research aims to identify transcriptional signatures and genes 
-            associated with post-TB lung disease using whole genome profiles of over 240 patients in India, where TB remains prevalent among lower-income groups with 
-            constrained healthcare infrastructure.</p>
+            associated with post-TB lung disease post-treatment using whole genome profiles and clinical data of over 240 patients in India, where TB remains 
+            prevalent among lower-income groups with constrained healthcare infrastructure.</p>
+            <p>I used biomaRt in R to annotate significant SNPs by mapping them to nearby genes to identify eQTLs of interest. From the GWAS dataset, I 
+            extracted relevant genotype and SNP data, and aligned it with clinical metadata by matching patient IDs to sample names. I then filtered the cohort 
+            to include only patients with 8-week follow-up data and removed missing values. After ensuring consistent formatting and data types, I categorized 
+            patients based on BMI and grouped them for downstream regression analysis. I built regression models using cleaned and restructured data, visualized the 
+            results with box plots and histograms using ggplot2 and sjPlot, and calculated confidence intervals and model coefficients. Final outputs, including 
+            summaries and plots, were exported as CSV files for reporting and publishing.</p>
+            <p>The final report has not been published yet.</p>
           </div>
         </div>
     <div class="GWAS_workflow">
