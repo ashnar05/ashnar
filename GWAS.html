@@ -103,7 +103,38 @@ This website was coded based on Sharon Yi's portfolio at https://sharon-yi.com/.
     <img src="docs/interaction_plot.svg" alt="">
     </div>
   </main>
-
+   <section class="contact" data-aos="fade-up" data-aos-once="true" id="contact">
+    <div class="contactContainer wrapper">
+      <div class="contactInformation">
+        <h2>Let's Connect!</h2>
+        <p>
+         Feel free to reach out with questions or just to introduce yourself. Thanks for checking out my work!
+        </p>
+        <ul class="socialIcons">
+          <li>
+            <a href="https://www.linkedin.com/in/ashnaramaswamy/"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/ashnar05"><i class="fab fa-github"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="contactForm">
+        <form action='thankyou/thanks' method='POST' name='contact'><input type='hidden' name='form-name' value='contact' />
+          <label for="name" class="visuallyHidden">Name</label>
+          <input type="text" name="name" id="name" placeholder="Name" autocomplete="off" required />
+          <label class="visuallyHidden" for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Email" required />
+          <label class="visuallyHidden" for="message" autocomplete="off">Message</label>
+          <textarea name="message" id="message" placeholder="Message" required=""></textarea>
+          <div class="submit-container">
+            <button class="send" type="submit">Send message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  
   <footer>
     <p></p>
   </footer>
