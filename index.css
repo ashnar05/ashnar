@@ -1634,6 +1634,24 @@ video:hover {
   max-width: 100%;
   object-fit: contain;
 }
+
+.figures {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: #f1f4fc;
+}
+
+.figures img {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  object-fit: contain;
+}
     
 footer {
   width: 100%;
