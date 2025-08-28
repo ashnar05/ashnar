@@ -1636,12 +1636,13 @@ video:hover {
 }
 
 .figures {
-  width: 100%;
+  width: 70%%;
   position: relative;
   margin: 0 auto;
   padding: 15px;
   border-radius: 25px;
-  background-color: #f1f4fc;
+  background-color: #ffffff;
+  margin-bottom: 50px;
 }
 
 .figures img {
