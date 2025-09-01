@@ -640,7 +640,7 @@ header p span {
 .aboutMe {
   min-height: 500px;
   height: 80%;
-  margin: 10%;
+  margin: 10% 10% 0 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
