@@ -72,19 +72,24 @@ This website was coded based on Sharon Yi's portfolio at https://sharon-yi.com/.
     </div>
     <div class="thirdRow wrapper">
           <div class="description" data-aos="fade-up" data-aos-once="true">
-            <p>Understanding the genetic factors underlying poor tuberculosis (TB) prognosis and mortality may inform host-directed therapies targeting the
-            pulmonary microenvironment, ultimately reducing the risk of post-TB complications in disproportionately affected populations. Post-TB lung disease remains
-            undiagnosed, particularly in communities with limited access to healthcare. As such, our research aims to identify transcriptional signatures and genes 
-            associated with post-TB lung disease post-treatment using whole genome profiles and clinical data of over 240 patients in India, where TB remains 
-            prevalent among lower-income groups with constrained healthcare infrastructure.</p>
+            <p>Mycobacterium tuberculosis (Mtb) exposure generates diverse clinical outcomes due to complex host-pathogen interactions and global endemicity.
+              Understanding the genetic factors underlying poor tuberculosis (TB) prognosis and mortality may inform host-directed therapies targeting the 
+              pulmonary microenvironment, ultimately reducing the risk of poor prognosis and post-TB complications in disproportionately affected populations. 
+              We hypothesize that monocyte genes contain Mtb-specific responses that influence TB pathogenesis.
+              Our research aims to identify transcriptional signatures and genetic variants associated with TB and post-TB lung disease using whole genome profiles and 
+              clinical data. Based on <a href="https://pubmed.ncbi.nlm.nih.gov/38515745/" target="_blank">prior research</a>, we have identified Mtb-dependent
+              expression quantitative trait loci (eQTLs) associated with cytokine expression and clinical resistance to tuberculin skin tests and interferon-gamma 
+              release assays.</p>
+            <p>This project investigates whole-genome profiles of over 240 patients in India, where TB remains prevalent, leveraging previously identified eQTLs to investigate
+              host genetic influences on disease progression</p>
             <p>I used biomaRt in R to annotate significant SNPs by mapping them to nearby genes to identify eQTLs of interest. From the GWAS dataset, I 
-            extracted relevant genotype and SNP data, and aligned it with clinical metadata by matching patient IDs to sample names. I then filtered the cohort 
-            to include only patients with 8-week follow-up data and removed missing values. After ensuring consistent formatting and data types, I categorized 
-            patients based on BMI and grouped them for downstream regression analysis. I built regression models using cleaned and restructured data, visualized the 
-            results with interaction plots and histograms using ggplot2, ggeffects, and sjPlot, and calculated confidence intervals and model coefficients. Final outputs, 
-            including summaries and plots, were exported as CSV files for reporting and publishing.</p>
-            <p>This project is part of an ongoing unpublished study investigating genetic and clinical predictors of post-TB lung disease under the supervision
-            of Dr. Hyejeong Hong. Data access was restricted; all visualizations here are illustrative.</p>
+              extracted relevant genotype and SNP data, and aligned it with clinical metadata by matching patient IDs to sample names. I then filtered the cohort 
+              to include only patients with 8-week follow-up data and removed missing values. After ensuring consistent formatting and data types, I categorized 
+              patients based on BMI and grouped them for downstream regression analysis. I built regression models using cleaned and restructured data, visualized the 
+              results with interaction plots and histograms using ggplot2, ggeffects, and sjPlot, and calculated confidence intervals and model coefficients. Final outputs, 
+              including summaries and plots, were exported as CSV files for reporting and publishing.</p>
+            <p>This project is part of an ongoing unpublished study investigating genetic and clinical predictors of TB pathogenesis under the supervision
+              of Dr. Hyejeong Hong. Data access is restricted; all visualizations here are illustrative.</p>
             <p>Below is an outline of the process and tools used at each step.</p>
           </div>
         </div>
