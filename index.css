@@ -1653,6 +1653,15 @@ video:hover {
   max-width: 100%;
   object-fit: contain;
 }
+
+.custom_link {
+  color: #65809d;
+  text-decoration: none;
+  font-weight: 600;
+}
+.custom_link:hover {
+  text-decoration: underline;
+}
     
 footer {
   width: 100%;
