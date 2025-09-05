@@ -489,13 +489,13 @@ header .headerText h1 {
   margin: 10px 0;
   color: #f1f4fc;
   position: relative;
-  max-width: 200px;
+  /*max-width: 200px;*/
   width: 80%;
 }
 @media (min-width: 780px) {
   header .headerText h1 {
     font-size: 4rem;
-    /*max-width: 400px;*/
+    max-width: 100%;
     font-family: "Syne", sans-serif;
     font-optical-sizing: auto;
     font-weight: 725;
