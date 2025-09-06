@@ -97,13 +97,14 @@ This website was coded based on Sharon Yi's portfolio at https://sharon-yi.com/.
     </div>
     <div class="thirdRow wrapper">
       <div class="description" data-aos="fade-up" data-aos-once="true">
-        <p>I used biomaRt in R to annotate significant SNPs by mapping them to nearby genes to identify eQTLs of interest. From the GWAS dataset, I 
-            extracted relevant genotype and SNP data, and aligned it with clinical metadata by matching patient IDs to sample names. I then filtered the cohort 
-            to include only patients with 8-week follow-up data and removed missing values. After ensuring consistent formatting and data types, I categorized 
-            patients based on BMI and grouped them for downstream regression analysis. I built regression models using cleaned and restructured data, visualized the 
-            results with interaction plots and histograms using ggplot2, ggeffects, and sjPlot, and calculated confidence intervals and model coefficients. Final outputs, 
-            including summaries and plots, were exported as CSV files for reporting and publishing.</p>
-        <p>Example Manhattan plot of genomic data with significant SNPs outlined.</p>
+        <p>I used biomaRt in R to annotate significant SNPs by mapping them to nearby genes and identifying those located wtihin eQTLs of interest. I then aligned the allelic data
+          of our key SNP with clinical metadata by matching patient IDs to their corresponding sample names. </p>
+        <p>To prepare the dataset for analysis, I filtered the cohort 
+          to include only patients with follow-up appointments and removed records of missing values to ensure that only data with confirmed clinical outcomes would be included in my model. 
+          After validating formatting and data types, I categorized patients based on BMI and grouped them for downstream regression analysis. I built linear regression models 
+          using the cleaned and restructured dataset and visualized the results with interaction plots and histograms using ggplot2, ggeffects, and sjPlot. I also calculated confidence intervals 
+          and model coefficients. Final outputs, including statistical summaries and plots, were exported as CSV files for reporting and publication.</p>
+        <p>Below is an example Manhattan plot showing the genomic distribution of significant SNPs. We used this to confirm the position of our SNP of interest and its association with a relevant eQTL.</p>
       </div>
     </div>
     <div class="figures" data-aos="fade-up" data-aos-once="true">
@@ -111,12 +112,18 @@ This website was coded based on Sharon Yi's portfolio at https://sharon-yi.com/.
     </div>
     <div class="thirdRow wrapper">
       <div class="description" data-aos="fade-up" data-aos-once="true">
-        <p>Example interaction plot of final visualized linear regression.</p>
+        <p>An example of the final visualized regression model is shown in the interaction plot below, illustrating the relationship between BMI groups and mortality outcomes, comparing patients
+          with and without the key SNP.</p>
       </div>
     </div>
     <div class="figures" data-aos="fade-up" data-aos-once="true">
     <img src="docs/interaction_plot.svg" alt="">
     </div>
+    <div class="thirdRow wrapper">
+      <div class="description" data-aos="fade-up" data-aos-once="true">
+        <p>Further validation of key eQTLs is underway through both wet-lab and computational approaches. Currently, I am processing clinical samples from post-TB patients
+        for single-cell RNA sequencing (scRNA-seq) analysis in R, while also conducting in vitro cytokine assays and qPCR analysis using THP-1 monocyte cells in parallel.</p>
+      </div>
   </main>
    <section class="contact" data-aos="fade-up" data-aos-once="true" id="contact">
     <div class="contactContainer wrapper">
