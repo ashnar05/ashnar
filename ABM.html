@@ -67,14 +67,28 @@ This website was coded based on Sharon Yi's portfolio at https://sharon-yi.com/.
         <p>August 2024 - May 2025</p>
       </div>
       <div class="infobox" data-aos="fade-up" data-aos-once="true">
-        <p>Python, C, PhysiCell, MATLAB</p>
+        <p>Python, C, PhysiCell, MATLAB, Linux</p>
       </div>
     </div>
     <div class="thirdRow wrapper">
           <div class="description" data-aos="fade-up" data-aos-once="true">
-            <p></p>
-            <p></p>
-            <p></p>
+            <p>For my Master’s thesis in Bioengineering, I developed and validated an agent-based model (ABM) to investigate how tumor composition and the 
+              tumor microenvironment influence chemotherapy efficacy in Wilms tumor, a pediatric kidney cancer. This project combined computational modeling, 
+              pharmacokinetic/pharmacodynamic (PK/PD) analysis, and systems biology approaches to explore how blastemal versus regressive cell subtypes 
+              differentially respond to treatment under varying microenvironmental stresses such as hypoxia, acidosis, and nutrient deprivation.</p>
+            <h2>Technical Contributions</h2>
+            <ul>
+              <li>Model development: Built a 2D agent-based model in PhysiCell version 1.14.1 to simulate tumor spheroid growth under different 
+                regressive-to-blastemal cell ratios. Integrated cell behaviors (growth, motility, adhesion, apoptosis) with environmental gradients of 
+                oxygen, nutrients, and chemotherapeutics.</li>
+              <li>PK/PD integration: Parameterized drug transport and cytotoxicity for three frontline Wilms tumor chemotherapies (doxorubicin, vincristine, 
+                actinomycin D) using literature-derived values for diffusion coefficients, uptake rates, and IC<sub>50</sub> thresholds.</li>
+              <li>Spatiotemporal simulation: Implemented Hill-function–based rules to capture dynamic effects of hypoxia and acidosis on drug resistance, 
+                cell motility, and epithelial-to-mesenchymal transitions (EMT).</li>
+              <li>Data analysis & validation: Ran multi-condition simulations with stochastic replicates, applied statistical testing (t-tests, Kruskal-Wallis,
+                Dunn’s post-hoc), and compared computational trends to clinical data.</li>
+              <li>Visualization: Created time-series plots, violin plots, and heatmaps to illustrate treatment outcomes and tumor evolution across subtypes.</li>
+            </ul>
             <p></p>
           </div>
         </div>
