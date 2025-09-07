@@ -1491,6 +1491,22 @@ video:hover {
   position: relative;
   margin: 0 0 50px 0;
     }
+
+.description h2 {
+  font-size: 2rem;
+  font-family: "Syne", sans-serif;
+  color: #f1f4fc;
+  position: relative;
+  margin: 0;
+    }
+
+.description ul {
+  font-size: 2rem;
+  font-family: "Red Hat Text", sans-serif;
+  color: #f1f4fc;
+  position: relative;
+  margin: 0 0 50px 0;
+    }  
     
 .contact {
   /*background-color: #1c3570;*/
