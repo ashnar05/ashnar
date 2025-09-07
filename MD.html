@@ -81,24 +81,24 @@ This website was coded based on Sharon Yi's portfolio at https://sharon-yi.com/.
               used in other projects.</p>
             <h2>Key features:</h2>
             <ul>
-              <li>Velocity Verlet integrator</li>
+              <li><em>Velocity Verlet integrator</em></li>
               <p>Accurate time integration scheme preserving time-reversibility and energy conservation, suitable for Hamiltonian systems.</p>
-              <li>Periodic Boundary Conditions (PBCs)</li>
+              <li><em>Periodic Boundary Conditions (PBCs)</em></li>
               <p>Implements minimum image convention to replicate an infinite bulk system while simulating only a finite number of particles.</p>
-              <li>Cell List-Based Neighbor Search</li>
+              <li><em>Cell List-Based Neighbor Search</em></li>
               <p>Improves computational efficiency from O(N<sup>2</sup>) to approximately O(N) by spatially decomposing the simulation box into neighbor cells.</p>
-              <li>Lennard-Jones Potential with Energy Shift</li>
+              <li><em>Lennard-Jones Potential with Energy Shift</em></li>
               <p>Models short-range repulsive and long-range attractive interactions. Includes energy shifting for continuity at cutoff.</p>
-              <li>Force Calculation and Validation</li>
+              <li><em>Force Calculation and Validation</em></li>
               <p>Forces are analytically derived and validated via numerical differentiation, ensuring accuracy of particle dynamics.</p>
-              <li>Real-Time Thermodynamic Monitoring</li>
+              <li><em>Real-Time Thermodynamic Monitoring</em></li>
               <p>Calculates kinetic energy, potential energy, total energy, and instantaneous temperature every N steps. Logs to log.dat for downstream analysis.</p>
-              <li>XYZ Trajectory Output</li>
+              <li><em>XYZ Trajectory Output</em></li>
               <p>Outputs atomic positions in .xyz format compatible with visualization tools like Ovito, VMD, or PyMOL for trajectory animation.</p>
-              <li>Flexible Initialization</li>
+              <li><em>Flexible Initialization</em></li>
               <p>Option to initialize particles on a 3D grid or from custom configurations (via input.config file).</p>
               <p>Random Gaussian-distributed velocities with center-of-mass velocity correction.</p>
-              <li>Modular Design</li>
+              <li><em>Modular Design</em></li>
               <p>Core routines for force computation, PBCs, random number generation, and output are clearly modularized and reusable.</p>
             </ul>
           </div>
