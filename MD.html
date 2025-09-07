@@ -72,10 +72,60 @@ This website was coded based on Sharon Yi's portfolio at https://sharon-yi.com/.
     </div>
     <div class="thirdRow wrapper">
           <div class="description" data-aos="fade-up" data-aos-once="true">
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
+            <h2>Background</h2>
+            <p>This molecular dynamics simulation was originally provided as a homework assignment by Prof. Robert Riggleman as part of a Molecular Dynamics
+              course (CBE525) at the University of Pennsylvania. I have extended the original simulation framework and analyzed the code to deepen my understanding of
+              computational molecular modeling and numerical simulation techniques. This project implements a high-performance Molecular Dynamics (MD) simulator in C, modeling
+              a 3D system of particles interacting via the Lennard-Jones potential in the canonical (NVT) ensemble. The simulation tracks atomic motion, energy 
+              evolution, and temperature fluctuations over time using an efficient, physics-grounded approach. My broader work includes MCMC techniques, which I've 
+              used in other projects.</p>
+            <h2>Key features:</h2>
+            <ul>
+              <li>Velocity Verlet integrator</li>
+              <p>Accurate time integration scheme preserving time-reversibility and energy conservation, suitable for Hamiltonian systems.</p>
+              <li>Periodic Boundary Conditions (PBCs)</li>
+              <p>Implements minimum image convention to replicate an infinite bulk system while simulating only a finite number of particles.</p>
+              <li>Cell List-Based Neighbor Search</li>
+              <p>Improves computational efficiency from O(N<sup>2</sup>) to approximately O(N) by spatially decomposing the simulation box into neighbor cells.</p>
+              <li>Lennard-Jones Potential with Energy Shift</li>
+              <p>Models short-range repulsive and long-range attractive interactions. Includes energy shifting for continuity at cutoff.</p>
+              <li>Force Calculation and Validation</li>
+              <p>Forces are analytically derived and validated via numerical differentiation, ensuring accuracy of particle dynamics.</p>
+              <li>Real-Time Thermodynamic Monitoring</li>
+              <p>Calculates kinetic energy, potential energy, total energy, and instantaneous temperature every N steps. Logs to log.dat for downstream analysis.</p>
+              <li>XYZ Trajectory Output</li>
+              <p>Outputs atomic positions in .xyz format compatible with visualization tools like Ovito, VMD, or PyMOL for trajectory animation.</p>
+              <li>Flexible Initialization</li>
+              <p>Option to initialize particles on a 3D grid or from custom configurations (via input.config file).</p>
+              <p>Random Gaussian-distributed velocities with center-of-mass velocity correction.</p>
+              <li>Modular Design</li>
+              <p>Core routines for force computation, PBCs, random number generation, and output are clearly modularized and reusable.</p>
+            </ul>
+            <h2>Tools</h2>
+            <ul>
+              <li>Languages: C (compuled via GCC)</li>
+              <li>Visualization: Ovito, Python (matplotlib for plots)</li>
+              <li>Shell scripting: Bash (for job automation)</li>
+              <li>Numerical methods: Verlet integration, Gaussian sampling, PBC</li>
+              <li>Computational physics: Lennard-Jones interactions, Bayesian statistics, statistical thermodynamics</li>
+            </ul>
+            <h2>Skills Demonstrated</h2>
+            <ul>
+              <li>Low-level scientific programming and memory management in C</li>
+              <li>Simulation algorithm design (MD, neighbor lists, force fields)</li>
+              <li>Thermodynamic property calculation and validation</li>
+              <li>Custom random number generation and statistical sampling</li>
+              <li>Writing reusable, modular scientific code</li>
+              <li>Data visualization and analysis of simulation outputs</li>
+            </ul>
+            <h2>Future Extensions</h2>
+            <p>This framework can be extended to:</p>
+            <ul>
+              <li>Add thermostats (e.g. Langevin, Andersen) or barostats for NPT ensembles</li>
+              <li>Introduce molecular topologies and bonded interactions</li>
+              <li>Perform MCMC sampling for equilibrium property estimation</li>
+              <li>Implement Bayesian parameter inference (integration with other projects)</li>
+            </ul>
           </div>
         </div>
     <div class="GWAS_workflow" data-aos="fade-up" data-aos-once="true">
