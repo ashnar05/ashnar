@@ -72,10 +72,51 @@ This website was coded based on Sharon Yi's portfolio at https://sharon-yi.com/.
     </div>
     <div class="thirdRow wrapper">
           <div class="description" data-aos="fade-up" data-aos-once="true">
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
+            <h2>Overview</h2>
+            <p>This project focused on predicting recidivism risk using a publicly available dataset of incarcerated individuals’ demographic, behavioral, and 
+              correctional history. I developed and compared multiple machine learning models (Random Forests, a Sparse Linear Integer Model, and a Neural Network) 
+              to evaluate predictive accuracy, interpretability, and fairness across demographic subgroups. This work demonstrates my ability to handle the full ML 
+              pipeline from scratch: from feature engineering and data cleaning to model development, evaluation, and ethical analysis.</p>
+            <h2>Technical contributions</h2>
+            <p>Data preprocessing & feature engineering</p>
+            <ul>
+              <li>Cleaned and imputed missing values across behavioral and demographic features using SimpleImputer.</li>
+              <li>Encoded categorical variables with LabelEncoder for ML compatibility.</li>
+              <li>Engineered features capturing prior arrests, conviction episodes, supervision levels, drug test results, and employment stability,
+              transforming raw variables into predictive signals.</li>
+              <li>Created binary thresholded variables (e.g. felony arrests > 3, percent employed > 50%) to support interpretable linear models.</li>
+            </ul>
+            <p>Model development</p>
+            <ul>
+              <li>Random Forest Classifier:</li>
+              <ul>
+                <li>Trained a 500-estimator ensemble model on 40+ features.</li>
+                <li>Achieved solid predictive accuracy, with probability-based outputs suitable for risk ranking.</li>
+                <li>Evaluated subgroup performance using confusion matrices by various metrics, revealing disparities in false positive/negative rates.</li>
+              </ul>
+              <li>Sparse Linear Integer Model (Supersparse):</li>
+              <ul>
+                <li>Applied FasterRisk optimization to derive a compact, interpretable scoring system.</li>
+                <li>Restricted coefficients to integer weights for transparency in real-world decision-making (risk scorecards).</li>
+                <li>Balanced predictive performance with interpretability, producing simple rules for parole denial risk.</li>
+              </ul>
+              <li>Neural Network (Deep Learning):</li>
+              <ul>
+                <li>Built a feedforward neural network with two hidden layers (60 units each, sigmoid activation).</li>
+                <li>Implemented using TensorFlow/Keras, trained with stochastic gradient descent on 50+ features.</li>
+                <li>Evaluated on test data, achieving competitive accuracy while demonstrating ability to scale to more complex architectures.</li>
+              </ul>
+            </ul>
+            <p>Model evaluation & fairness analysis</p>
+            <ul>
+              <li>Compared accuracy, AUC, and error types across models.</li>
+              <li>Visualized subgroup confusion matrices to assess fairness.</li>
+              <li>Generated risk probability outputs and Kaggle-style CSV submissions for external benchmarking.</li>
+            </ul>
+            <h2>Impact</h2>
+            <p>Through this project, I gained the ability to design, train, and critically evaluate ML models in domains where fairness and interpretability are essential. By 
+            implementing both advanced ensemble methods and interpretable sparse models, I learned technical versatility, rigorous data science practice, and awareness of ethical
+            AI challenges.</p>
           </div>
         </div>
     <div class="GWAS_workflow" data-aos="fade-up" data-aos-once="true">
