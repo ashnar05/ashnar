@@ -37,7 +37,7 @@ This website was coded based on Sharon Yi's portfolio at https://sharon-yi.com/.
     </nav>
     <header data-aos="fade-up" data-aos-once="true">
       <div class="subheaderText">
-        <h1>Two-Compartment PBPK Model of Cetuximab Kinetics</h1>
+        <h1>PBPK Modeling of Cetuximab Distribution in Plasma and Tumor Tissue</h1>
         <p>
           
         </p>
@@ -72,10 +72,45 @@ This website was coded based on Sharon Yi's portfolio at https://sharon-yi.com/.
     </div>
     <div class="thirdRow wrapper">
           <div class="description" data-aos="fade-up" data-aos-once="true">
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
+            <h2>Overview</h2>
+            <p>In this project, I developed a physiologically-based pharmacokinetic (PBPK) two-compartment model to simulate the distribution 
+              and clearance of cetuximab, a therapeutic antibody targeting EGFR, in a mouse bearing a solid tumor. The model describes antibody 
+              transport between blood and tumor, receptor binding, internalization, degradation, and systemic clearance. This work demonstrates 
+              my ability to integrate biological mechanisms, mathematical modeling, and computational simulation into a reproducible research workflow.</p>
+            <h2>Technical contributions</h2>
+            <ul>
+              <li>Model formulation:</li>
+              <ul>
+                <li>Constructed a system of ordinary differential equations (ODEs) representing antibody dynamics in plasma and tumor interstitium.</li>
+                <li>Incorporated processes including permeability-limited transport, receptor-mediated binding, antibody clearance, receptor synthesis, and internalization.</li>
+              </ul>
+              <li>Mathematical implementation:</li>
+              <ul>
+                <li>Derived binding equations for free antibody in plasma, free antibody in tumor, receptor-bound antibody in tumor, and EGFR receptor concentration.</li>
+                <li>Parameterized rate constants using literature values (association/dissociation kinetics, clearance half-life, receptor density, tumor volume, Krogh's cylinder geometry).</li>
+              </ul>
+              <li>Computational simulation:</li>
+              <ul>
+                <li>Implemented the model in Python (NumPy, SciPy, Matplotlib, Seaborn) within a Jupyter notebook.</li>
+                <li>Solved stiff ODEs using solve_ivp with BDF integration, ensuring numerical stability across multiple timescales.</li>
+                <li>Designed simulations for both single bolus injection and multi-dose regiments, enabling exploration of dosing strategies.</li>
+              </ul>
+              <li>Data visualization & analysis:</li>
+              <ul>
+                <li>Generated time-course plots of antibody distribution across compartments (plasma vs tumor, bound vs free states).</li>
+                <li>Illustrated pharmacokinetic features such as biphasic decay, tumor penetration kinetics, and receptor saturation thresholds.</li>
+                <li>Explored how changing model parameters (e.g. off-rate koff, clearance half-life, receptor internalization rate) influences therapeutic efficacy.</li>
+              </ul>
+            </ul>
+            <h2>Key findings</h2>
+            <ul>
+              <li>A single 30<span>&#181;</span>g injection was insufficient to saturate tumor EGFR receptors, as the bound antibody concentration remained significantly lower than receptor availability.</li>
+              <li>Increasing dosage (10x) or adjusting pharmacokinetic parameters (lower koff, slower clearance, slower internalization) substantially improved receptor occupancy and tumor saturation.</li>
+              <li>Multi-dose regiments (30<span>&#181;</span>g every 3 days <span>&#215;</span> 4 doses) increased exposure but still fell short of full saturation, highlighting the importance of affinity optimization and dosing strategies.</li>
+            </ul>
+            <h2>Impact</h2>
+            <p>This project highlights my expertise at the intersection of bioengineering, pharmacology, and computational modeling. By building a PBPK model from first principles, parameerizing it with experimental data, and simulating realistic treatment regimens,
+            I demonstrated the power of in silico modeling to inform antibody dosing strategies, predict therapeutic efficacy, and guide experimental design in translational oncology.</p>
           </div>
         </div>
     <div class="GWAS_workflow" data-aos="fade-up" data-aos-once="true">
