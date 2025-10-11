@@ -215,7 +215,7 @@ html {
 body {
   height: 100%;
   width: 100%;
-  font-family: "Syne", sans-serif;
+  font-family: "Red Hat Text", sans-serif;
   position: relative;
   /*background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("docs/wallpaper2.png");*/
   background: linear-gradient(to bottom, #050a17 0.1%, transparent 100%), url("docs/wallpaper2.png");
