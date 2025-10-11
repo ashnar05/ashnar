@@ -1437,7 +1437,7 @@ video:hover {
   }
 }
     */
-
+/*
 @media (min-width: 540px) {
   .portfolioOne:hover .overlayOne,
   .portfolioTwo:hover .overlayTwo,
@@ -1450,6 +1450,7 @@ video:hover {
     opacity: 1;
   }
 }
+    */
 
 .infobox{
   width: 100%;
@@ -1790,3 +1791,32 @@ img {
   }
 }
 
+/* Fix overlays */
+.portfolioOne,
+.portfolioTwo,
+.portfolioThree,
+.portfolioFour,
+.portfolioFive {
+  position: relative;
+  z-index: auto;
+}
+
+.overlayOne,
+.overlayTwo,
+.overlayThree,
+.overlayFour,
+.overlayFive {
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Visible on hover for all devices */
+.portfolioOne:hover .overlayOne,
+.portfolioTwo:hover .overlayTwo,
+.portfolioThree:hover .overlayThree,
+.portfolioFour:hover .overlayFour,
+.portfolioFive:hover .overlayFive {
+  opacity: 1;
+  display: flex;
+}
