@@ -1709,9 +1709,9 @@ img {
   display: block;
 }
 
-  /* =========================
+  /*=========================
         Fixes for mobile
-  ========================= */
+  =========================*/
 @media (max-width: 768px) {
   .aboutMe {
     margin: 5% 5% 0 5%;
@@ -1767,5 +1767,26 @@ img {
     display: none;
   }
 }
+    
+/*=========================
+ Fixes for smaller screens
+=========================*/
 
+  @media (max-width: 480px) {
+  h1, h2 {
+    font-size: 2.2rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  nav .menu li a {
+    font-size: 2rem;
+  }
+
+  .skills li {
+    font-size: 1.4rem;
+  }
+}
 
