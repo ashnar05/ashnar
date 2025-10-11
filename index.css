@@ -759,7 +759,8 @@ header p span {
 .skills li {
   list-style: none;
   color: #f1f4fc;
-  width: 80px;
+  width: 100%;
+  max-width: 80px;
   text-align: center;
   padding: 20px 0;
   display: -webkit-box;
