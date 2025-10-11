@@ -1709,3 +1709,63 @@ img {
   display: block;
 }
 
+  /* =========================
+        Fixes for mobile
+  ========================= */
+@media (max-width: 768px) {
+  .aboutMe {
+    margin: 5% 5% 0 5%;
+  }
+
+  .aboutMe .aboutMeTop {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutMe .aboutMeTop .aboutMeImage {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .aboutMe .aboutMeTop .aboutMeBio p {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .skills li {
+    max-width: 100px;
+    margin: 10px;
+  }
+
+  .portfolioProjects {
+    margin: 0 5% 50px 5%;
+  }
+
+  .firstRow, .secondRow, .thirdRow {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .portfolioOne, .portfolioTwo, .portfolioThree, .portfolioFour, .portfolioFive {
+    width: 100%;
+    max-height: 300px;
+  }
+
+  header {
+    height: auto !important;
+    padding: 80px 0;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header .headerText, header .subheaderText {
+    width: 90%;
+    text-align: center;
+  }
+
+  header .scrollDownText {
+    display: none;
+  }
+}
+
+
