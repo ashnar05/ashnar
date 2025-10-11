@@ -546,6 +546,7 @@ header .subheaderText h1 span {
 
 header .subheaderText p {
   text-align: left;
+  width: 100%;
   max-width: 600px;
 }
   
