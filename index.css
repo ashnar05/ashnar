@@ -1097,6 +1097,16 @@ video:hover {
   }
 }
 
+.portfolioProjects,
+.portfolioOne,
+.portfolioTwo,
+.portfolioThree,
+.portfolioFour,
+.portfolioFive {
+  position: relative;
+  z-index: auto;
+}
+
 .portfolioOne,
 .portfolioTwo,
 .portfolioThree,
